@@ -1,6 +1,7 @@
 'use strict';
 
 var na = require('../lib/na.js');
+var P = require('promise-simple');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -28,9 +29,46 @@ exports['na'] = {
     done();
   },
   'no args': function(test) {
+    test.expect(0);
+    na({}, function() {
+      test.done();
+    });
+  },
+  'one callback': function(test) {
+    test.expect(1);
+    na({
+      $main: function($callback) {
+        $callback(1);
+      }
+    }, function(result) {
+      test.equal(result, 1);
+      test.done();
+    });
+  },
+  'one promise': function(test) {
     test.expect(1);
     // tests here
-    test.equal(na.awesome(), 'awesome', 'should be awesome.');
-    test.done();
+    na({
+      $main: function() {
+        var d = P.defer();
+        d.resolve(1);
+        return d;
+      }
+    }, function(result) {
+      test.equal(result, 1);
+      test.done();
+    });
+  },
+  'one value': function(test) {
+    test.expect(1);
+    // tests here
+    na({
+      $main: function() {
+        return 1;
+      }
+    }, function(result) {
+      test.equal(result, 1);
+      test.done();
+    });
   }
 };
