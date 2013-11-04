@@ -1,0 +1,27 @@
+{
+  "name": "na",
+  "version": "0.0.0",
+  "main": "lib/na.js",
+  "description": "The best async module ever. Takes a completely new approach to control flow, yet is built upon the existing concepts, such as dependancy injection.",
+  "homepage": "http://github.com/forivall/Na.js",
+  "bugs": "https://github.com/forivall/na/issues",
+  "author": {
+    "name": "Jordan James Klassen",
+    "email": "forivall@gmail.com",
+    "url": "forivall@github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forivall/na"
+  },
+  "licenses": [
+    {
+      "type": "Apache2"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0"
+  }
+}
