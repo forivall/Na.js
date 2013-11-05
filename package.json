@@ -1,8 +1,8 @@
 {
   "name": "na",
-  "version": "0.0.0",
+  "version": "0.0.1-dev0",
   "main": "lib/na.js",
-  "description": "The best async module ever. Takes a completely new approach to control flow, yet is built upon the existing concepts, such as dependancy injection.",
+  "description": "An async module that combines async.auto and dependancy injection",
   "homepage": "http://github.com/forivall/Na.js",
   "bugs": "https://github.com/forivall/na/issues",
   "author": {

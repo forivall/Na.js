@@ -12,14 +12,23 @@ Install the module with: `npm install na`
 
 ```javascript
 var na = require('na');
-na(...);
+na({ name: (injected_names[, $callback]) { $callback(...) OR return promise; OR return simple_value; }});
 ```
 
 ## Documentation
 Currently, Na.js is a facade to `async.auto`, that reduces the need to repeat and unpack arguments.
 
 ## Examples
-See the test file for now. (not passing)
+See the test file for now.
+
+## TODOs
+
+- Remove dependancy on async.auto (browser-native)
+- Allow more advanced injection parameters ('array[0]': ..., slices, 'object.foo')
+- Better error handling
+- Use cssauron-falafel to extract the $annotate function from angularjs directly (and other code bits from angularjs; stay tuned for more)
+- native support for returning promises of any library (just supply a factory function!)
+- anything else I remember
 
 ## Similar projects
 
