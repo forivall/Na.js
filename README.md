@@ -3,7 +3,7 @@ Na.js (pronounced sodium.js)
 
 Takes a mostly new approach to control flow, yet is built upon the existing concepts, such as dependancy injection.
 
-[![Build Status](https://secure.travis-ci.org/forivall/na.png?branch=master)](http://travis-ci.org/forivall/na)
+[![Build Status](https://secure.travis-ci.org/forivall/Na.js.png?branch=master)](http://travis-ci.org/forivall/Na.js)
 
 
 
