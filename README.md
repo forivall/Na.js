@@ -1,4 +1,4 @@
-Na.js
+Na.js (pronounced sodium.js)
 ====
 
 Takes a mostly new approach to control flow, yet is built upon the existing concepts, such as dependancy injection.
@@ -28,6 +28,8 @@ See the test file for now.
 - Better error handling
 - Use cssauron-falafel to extract the $annotate function from angularjs directly (and other code bits from angularjs; stay tuned for more)
 - native support for returning promises of any library (just supply a factory function!)
+- allow adding tasks after the async process has started
+- allow multiple possible endpoints (i.e. whichever ends first)
 - anything else I remember
 
 ## Similar projects

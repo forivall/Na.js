@@ -3,6 +3,7 @@
   "version": "0.0.1-dev0",
   "main": "lib/na.js",
   "description": "An async module that combines async.auto and dependancy injection",
+  "keywords": ["async", "angular", "dependancy injection"],
   "homepage": "http://github.com/forivall/Na.js",
   "bugs": "https://github.com/forivall/na/issues",
   "author": {
