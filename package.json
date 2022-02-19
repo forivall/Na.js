@@ -3,7 +3,11 @@
   "version": "0.0.1-dev0",
   "main": "lib/na.js",
   "description": "An async module that combines async.auto and dependancy injection",
-  "keywords": ["async", "angular", "dependancy injection"],
+  "keywords": [
+    "async",
+    "angular",
+    "dependancy injection"
+  ],
   "homepage": "http://github.com/forivall/Na.js",
   "bugs": "https://github.com/forivall/na/issues",
   "author": {
@@ -21,7 +25,7 @@
     }
   ],
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-jshint": "~3.2.0",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.5.0",
     "promise-simple": "~0.1.0"
